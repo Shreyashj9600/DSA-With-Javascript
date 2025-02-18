@@ -1,0 +1,12 @@
+   . what is data structur ?
+-> way to organize data so that we can use this data efficiently .
+eg:-
+ [9,3,5,3,1,2,6,7,3]
+ [1,2,3,4,5,6,7,8,9]
+
+     .what is Algorithm ?
+-> Stapes or process to arrange data.
+eg:-
+[9,3,5,3,1,2,6,7,3] // sorting to this array in sequenc see bellow array.
+[1,2,3,4,5,6,7,8,9]
+ 
