@@ -1,0 +1,49 @@
+<!-- Array traversing and accessing in Data structure -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array traversing </title>
+</head>
+
+<body>
+
+    <input type="text" id="element">
+    <button id="btn">get element</button>
+
+    <script>
+
+        let data = [23, 45, 33, 6, 4, 1, 4, 5, 8, 9, 66, 5, 55, 0]
+
+        // for (let i = 0; i < data.length; i++) {
+        //     console.log(data[i])
+        // }
+
+        // data.forEach((item , ind)=> {
+        //     console.log(`my array item index no is ${ind} and array item is ${item}`);
+
+        // })
+
+        // for (const item of data) {
+        //     console.log(item);
+
+        // }
+
+        let button = document.getElementById('btn')
+        button.addEventListener('click', () => {
+
+            let el = document.getElementById('element').value
+
+            if (el < data.length && el >= 0 && typeof parseInt(el) === "number") {
+                alert(data[el])
+            } else {
+                alert('pleas enter a valid number')
+            }
+        }) 
+    </script>
+</body>
+
+</html>
