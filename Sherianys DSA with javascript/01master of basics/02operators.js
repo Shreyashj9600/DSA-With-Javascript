@@ -32,3 +32,11 @@ console.log("c = " + c) //
 let z = 33
 z = z++
 console.log(z)
+
+let p = true // note: in js true is 1 and false is 0 
+p++
+console.log(p);
+
+let q = 10
+let r = ++(q++)
+console.log(r); // error 
