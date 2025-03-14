@@ -29,3 +29,10 @@ if (pr === null) {
 //     let n = Number(pr);
 //     console.log(n > 0 ? (n * (n + 1)) / 2 : "Should be positive and more than zero");
 // }
+
+
+// let ans = prompt("enter a anything")
+
+// while (ans !== "exit") {
+//     ans = prompt("enter a anything")
+// }
