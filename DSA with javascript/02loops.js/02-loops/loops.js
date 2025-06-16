@@ -11,7 +11,7 @@ if (pr === null) {
         if (n > 0) {
             let reversedNum = 0; // 3
             while (n > 0) {
-                let lastDigit = n % 10;                                     
+                let lastDigit = n % 10;
                 reversedNum = reversedNum * 10 + lastDigit
                 n = Math.floor(n / 10)
             }

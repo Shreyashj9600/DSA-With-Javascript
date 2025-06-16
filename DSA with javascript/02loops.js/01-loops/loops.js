@@ -19,7 +19,7 @@
 //         }
 //     }
 // }
-
+d
 
 // Note :- which time use for loop vs while loop
 //       In case we are going to market and we have list of 10 items and my condaction is only by 10 item list ; in this case use for loop ;
@@ -53,7 +53,7 @@ if (pr === null) {
                 n = Math.floor(n / 10); // remove last digit: n = 123 → 12 → 1 → 0
             }
             console.log(sum);         // prints: 10
-            
+
         } else {
             console.log('pls enter a +ve or more than 0');
         }
